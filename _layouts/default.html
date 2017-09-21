@@ -6,8 +6,9 @@
 
     {% seo %}
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#EF5350">
     <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -22,8 +23,12 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         <p class="view">
-            <a href="https://github.com/{{ site.github_username }}"><i class="social" data-feather="github"></i></a>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="social" data-feather="twitter"></i></a>
+            <a aria-label="My Github Profile" href="https://github.com/{{ site.github_username }}">
+                <i class="social" data-feather="github"></i>
+            </a>
+            <a aria-label="My Twitter Profile" href="https://twitter.com/{{ site.twitter_username }}">
+                <i class="social" data-feather="twitter"></i>
+            </a>
         </p>
     </header>
     <section>
