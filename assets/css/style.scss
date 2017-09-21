@@ -1,0 +1,28 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@font-face {
+  font-family: "Inter-UI";
+  src: url("/assets/fonts/Inter-UI-Regular.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Inter-UI";
+  src: url("/assets/fonts/Inter-UI-Bold.woff") format('woff');
+  font-weight: bold;
+}
+
+body {
+  font-family: Inter-UI, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+.social {
+  margin-right: 20px;
+}
