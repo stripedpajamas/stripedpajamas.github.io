@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div id="salt">
+    <h1 id="pepper">
+        <a href="/interesting.html" style="color: inherit">
+            <span id="oregano">
+                <!--lolz-->
+            </span>
+        </a>
+    </h1>
+</div>
+<script>
+    var o = document.getElementById('oregano');
+    var h = ['i', 'n', 't', 'e', 'r', 'e', 's', 't', 'i', 'n', 'g'].map(function(x) { return x.charCodeAt(0) });
+    var m = Math.random() * h.length * Math.PI;
+    var y = ['#66BB6A', '#FFCA28', '#7E57C2', '#546E7A'][Math.floor(Math.random() * 4)];
+    h.sort(function(a, b) { return (Math.random() * h.length * Math.E) - m; });
+    o.innerHTML = h.map(function(x) { return String.fromCharCode(x) }).join('');
+    o.style = "background-color: " + y + "; font-size: 4em;";
+</script>
+</body>
+</html>
