@@ -19,9 +19,9 @@
     function pizza(pressed) {
       var o = document.getElementById('oregano');
       var h = ['i', 'n', 't', 'e', 'r', 'e', 's', 't', 'i', 'n', 'g'].map(function(x) { return x.charCodeAt(0) });
-      var m = Math.random() * h.length * Math.PI;
+      var m = Math.floor(Math.random() * 2);
       var y = ['#66BB6A', '#FFCA28', '#7E57C2', '#546E7A'][Math.floor(Math.random() * 4)];
-      h.sort(function(a, b) { return (Math.random() * h.length * Math.PI) - m; });
+      h.sort(function(a, b) { return (Math.floor(Math.random() * 2)) - m; });
       o.innerHTML = h.map(function(x) { return String.fromCharCode(x) }).join('');
       o.style = "background-color: " + y + "; font-size: 4em;";
       if (pressed) {
