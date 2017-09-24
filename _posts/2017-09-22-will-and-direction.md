@@ -34,6 +34,19 @@ And Jesus says in Matthew 7:
 > Not everyone who says to me, ‘Lord, Lord,’ will enter the kingdom of heaven,
 > but the one <span class="post-highlight">who does the will of my Father who is in heaven.</span>
 
+And even Epictetus although he generally seems to be less into g/God/s than others:
+
+> Upon all occasions we ought to have these maxims ready at hand:
+>  
+> "Conduct me, Jove, and you, O Destiny, Wherever your decrees have fixed my station."
+> 
+> "I follow cheerfully; and, did I not, Wicked and wretched, I must follow still. Whoever yields
+> properly to Fate, is deemed Wise among men, and knows the laws of heaven."
+>  
+> And this third:
+> 
+> "O Crito, if it thus pleases the gods, thus let it be. Anytus and Melitus may kill me indeed, but hurt me they cannot."
+
 In the Bhagavad Gita, Krishna tries to explain to Arjuna what it means to act properly and his conclusion
 is stark and sacred:
 
