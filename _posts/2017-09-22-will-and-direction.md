@@ -3,6 +3,7 @@ layout: default
 title:  "Will and Direction"
 date: 2017-09-22 20:30:00 -0400
 excerpt: This is how actions were done by the ancient seekers of freedom; follow their example.
+categories: excerpts
 ---
 ## Will and Direction
 
