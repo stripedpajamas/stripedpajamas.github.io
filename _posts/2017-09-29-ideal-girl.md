@@ -17,13 +17,13 @@ categories: nonsense
 - Knows: what's best
 - Sharpness: tack-like
 
-### Economic
+#### Economic
 - Allocations: right
 - Prosperity: uninterrupted
 - Liquidation: smooth
 - Dividends: good
 
-### Attitude
+#### Attitude
 - Fast and thorough
 - Plays with her jewelry
 - Puts up her hair
@@ -33,7 +33,7 @@ categories: nonsense
 - Stays up late
 - Cuts through red tape with: machete
 
-### Fashion
+#### Fashion
 - Shoes: cutting
 - Skirt: short
 - Jacket: long
