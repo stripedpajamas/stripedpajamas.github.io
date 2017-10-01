@@ -16,6 +16,7 @@
 </div>
 <script>
     var dough = 0;
+    var limit = 0;
     function pizza(pressed) {
       var o = document.getElementById('oregano');
       var h = ['i', 'n', 't', 'e', 'r', 'e', 's', 't', 'i', 'n', 'g'].map(function(x) { return x.charCodeAt(0) });
@@ -31,28 +32,31 @@
       }
     }
     pizza();
+    var oh = document.getElementById('oregano');
+    var crust = document.getElementById('crust');
+    var help;
     function god() {
-      var limit = 0;
-      var oh = document.getElementById('oregano');
-      var crust = document.getElementById('crust');
+      limit = 0;
       crust.innerHTML = "Ok I'm trying.";
-      var hell = setTimeout(function() {
-        clearInterval(help);
-        if (oh.innerHTML === 'interesting') {
-          crust.innerHTML = "It took " + limit + " tries."
-        } else {
-          crust.innerHTML = "After 1,000 tries I gave up."
-        }
-      }, 10000);
+      setTimeout(hell, 10000);
+      help = setInterval(check, 10);
 
-      var help = setInterval(function() {
-        if (oh.innerHTML !== 'interesting') {
-          pizza();
-          limit++
-        } else {
-          hell()
-        }
-      }, 10);
+    }
+    function hell() {
+      clearInterval(help);
+      if (oh.innerHTML === 'interesting') {
+        crust.innerHTML = "It took " + limit + " tries."
+      } else {
+        crust.innerHTML = "After 1,000 tries I gave up."
+      }
+    }
+    function check() {
+      if (oh.innerHTML !== 'interesting') {
+        pizza();
+        limit++
+      } else {
+        hell()
+      }
     }
 </script>
 </body>
