@@ -40,14 +40,14 @@
       crust.innerHTML = "Ok I'm trying.";
       setTimeout(hell, 10000);
       help = setInterval(check, 10);
-
     }
     function hell() {
       clearInterval(help);
       if (oh.innerHTML === 'interesting') {
         crust.innerHTML = "It took " + limit + " tries."
       } else {
-        crust.innerHTML = "After 1,000 tries I gave up."
+        crust.innerHTML = "After 1,000 tries I gave up. So I cheated."
+        oh.innerHTML = "interesting"
       }
     }
     function check() {
