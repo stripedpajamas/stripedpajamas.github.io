@@ -40,6 +40,6 @@ the incorrigible conclusion:
 
 i forked a socket.io demo on glitch and added one line of translation logic to the server code:
 
-https://orange-sandstone.glitch.me/
+[orange-sandstone.glitch.me](https://orange-sandstone.glitch.me/)
 
 the end
