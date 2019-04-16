@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "orange sandstone"
-date:   2018-04-19 21:30:00 -0400
+date:   2019-04-16 15:30:00 -0400
 excerpt: making communication difficult
 categories: nonsense
 ---
@@ -42,4 +42,4 @@ i forked a socket.io demo on glitch and added one line of translation logic to t
 
 https://orange-sandstone.glitch.me/
 
-fin.
+the end
